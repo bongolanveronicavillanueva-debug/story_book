@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story Book | Manga & Anime Collection</title>
+    <!-- Google Fonts for Premium Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="logo">Story<span>Book</span></h1>
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#stories">Stories</a>
+                <a href="#about">About</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <span class="badge">Curated Collection</span>
+            <h2>Step Into a World of Stories</h2>
+            <p>Discover magical adventures, wonderful characters, and inspiring stories waiting to be explored.</p>
+            <button class="btn-primary" onclick="document.getElementById('stories').scrollIntoView({behavior: 'smooth'})">Explore Stories</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2>About Our Storybook</h2>
+            <p>Story Book is a collection of simple and inspiring stories created for readers who love imagination, adventure, and wonderful characters.</p>
+            <p>Choose a story and begin your next adventure with our curated selection of amazing manga and anime titles.</p>
+        </div>
+    </section>
+
+    <!-- Story Collection -->
+    <section class="stories" id="stories">
+        <div class="section-header">
+            <h2>Featured Stories</h2>
+            <p class="section-description">Choose a story and discover a new world.</p>
+        </div>
+
+        <div class="story-container">
+            <!-- Story 1 -->
+            <div class="story-card">
+                <div class="card-image-wrapper">
+                    <img src="dandadan.jpeg" alt="Dandadan">
+                </div>
+                <div class="card-content">
+                    <h3>Dandadan</h3>
+                    <p>A high school boy who believes in aliens and a girl who believes in ghosts join forces to navigate supernatural chaos.</p>
+                    <button class="card-btn">Read More</button>
+                </div>
+            </div>
+
+            <!-- Story 2 -->
+            <div class="story-card">
+                <div class="card-image-wrapper">
+                    <img src="onepiece.jpeg" alt="One Piece">
+                </div>
+                <div class="card-content">
+                    <h3>One Piece</h3>
+                    <p>A young pirate with a body made of rubber sets sail across the seas to find the legendary treasure known as One Piece.</p>
+                    <button class="card-btn">Read More</button>
+                </div>
+            </div>
+
+            <!-- Story 3 -->
+            <div class="story-card">
+                <div class="card-image-wrapper">
+                    <img src="fairytail.jpeg" alt="Fairy Tail">
+                </div>
+                <div class="card-content">
+                    <h3>Fairy Tail</h3>
+                    <p>A young celestial wizard joins a notoriously wild guild and embarks on magical adventures with her powerful friends.</p>
+                    <button class="card-btn">Read More</button>
+                </div>
+            </div>
+
+            <!-- Story 4 -->
+            <div class="story-card">
+                <div class="card-image-wrapper">
+                    <img src="hunterxhunter.jpg" alt="Hunter x Hunter">
+                </div>
+                <div class="card-content">
+                    <h3>Hunter x Hunter</h3>
+                    <p>A young boy sets out to pass the rigorous Hunter Examination in order to find his missing father.</p>
+                    <button class="card-btn">Read More</button>
+                </div>
+            </div>
+
+            <!-- Story 5 -->
+            <div class="story-card">
+                <div class="card-image-wrapper">
+                    <img src="mierukochan.jpg" alt="Mieruko-chan">
+                </div>
+                <div class="card-content">
+                    <h3>Mieruko-chan</h3>
+                    <p>An ordinary girl gains the uncanny ability to see terrifying monsters and tries her best to ignore them.</p>
+                    <button class="card-btn">Read More</button>
+                </div>
+            </div>
+
+            <!-- Story 6 -->
+            <div class="story-card">
+                <div class="card-image-wrapper">
+                    <img src="saitama.jpeg" alt="One Punch Man">
+                </div>
+                <div class="card-content">
+                    <h3>One Punch Man</h3>
+                    <p>A hero who can defeat any opponent with a single punch seeks a worthy opponent to reignite his passion for fighting.</p>
+                    <button class="card-btn">Read More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2026 Story Books | A World of Imagination and Adventure</p>
+    </footer>
+
+</body>
+</html>
